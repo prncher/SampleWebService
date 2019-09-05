@@ -1,0 +1,21 @@
+{
+  "name": "sample-web-service",
+  "version": "1.0.0",
+  "description": "A sample webservice to access OData",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/prncher/SampleWebService"
+  },
+  "scripts": {
+    "start": "node --use_strict app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince Cheruvathur",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1"
+  }
+}
